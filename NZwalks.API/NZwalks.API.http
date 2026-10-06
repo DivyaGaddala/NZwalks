@@ -1,0 +1,19 @@
+@NZwalks.API_HostAddress = http://localhost:5063
+
+GET {{NZwalks.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
+### GET
+@NZwalks_API_HostAddress = https://localhost:7238
+
+### Get all students
+GET {{NZwalks_API_HostAddress}}/api/students
+Accept: application/json
+
+### POST
+
+POST {{NZwalks_API_HostAddress}}/api/Students
+Accept: application/json
+
+
